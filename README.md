@@ -6,6 +6,6 @@ Analyse the utilisation of fleet vehicles to identify underused assets and make 
 
   Key Questions:
 
-- Which vehicles are underutilized or overutilized? - Calculate utilization rate, Compare vehicles of the same type to identify outliers (either underutilized or overutilized).
+- Which vehicles are underutilized or overutilized? - Calculate utilization rate, Compared vehicles of the same type to identify outliers (either underutilized or overutilized).
 - How does utilization vary across departments and times of the year?
 - What is the optimal number and type of vehicles needed to meet demand?
