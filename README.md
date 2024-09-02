@@ -2,7 +2,8 @@
 Analyse the utilisation of fleet vehicles to identify underused assets and make data-driven recommendations for optimising the fleet size and composition, improving efficiency, safety and cost-effectiveness. 
 # Objectives
 
-The main objective of this project is to optimize the fleet size and composition for the City of Toronto by identifying underutilized and overutilized vehicles. The project aims to answer the following key ### questions:
+The main objective of this project is to optimize the fleet size and composition for the City of Toronto by identifying underutilized and overutilized vehicles. The project aims to answer the following key 
+### questions:
 
 - Which vehicles are underutilized or overutilized?
 - How does utilization vary across departments and times of the year?
