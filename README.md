@@ -19,10 +19,14 @@ The analysis focused on identifying the utilization rate of vehicles and compari
 - Underutilized Vehicles: Light vehicles and special equipment showed lower utilization rates, suggesting that these assets are underutilized and could be considered for downsizing or repurposing.
 - Outliers: Vehicles with utilization rates significantly above or below the average for their type were identified as outliers, warranting closer inspection for potential reallocation or adjustment in fleet size.
 
+
+
 ## How does utilization vary across departments?
 - High Utilization Departments: Departments such as Emergency Services and Public Works showed consistently higher vehicle utilization rates, reflecting their critical and frequent operational demands.
 - Moderate to Low Utilization Departments: Departments like Administrative Services and Parks & Recreation had lower vehicle utilization rates, indicating that their fleet may be larger than necessary for their needs.
 - Seasonal Variations: Utilization rates also varied seasonally, with certain departments experiencing peak demand during specific times of the year, such as increased Parks & Recreation vehicle use during summer.
+![image](https://github.com/user-attachments/assets/9e3c9c38-fe85-461f-af80-a1b26854172b)
+
 
 ## What is the optimal number and type of vehicles needed to meet demand?
 - Heavy Vehicles: Given their high utilization rates, especially in departments like Emergency Services and Public Works, an increase in the number of heavy vehicles is recommended to meet the consistent and high demand.
