@@ -8,7 +8,7 @@ The main objective of this project is to optimize the fleet size and composition
 - Which vehicles are underutilized or overutilized?
 - How does utilization vary across departments and times of the year?
 - What is the optimal number and type of vehicles needed to meet demand?
-
+- How do depreciation and lifecycle status impact vehicle utilization rates and maintenance costs?
 # Methodology
 
 The analysis focused on identifying the utilization rate of vehicles and comparing them within the same type to detect outliers. A balanced approach to fleet management was recommended, with emphasis on matching vehicle types to departmental needs and adjusting for seasonal demand.
@@ -34,6 +34,10 @@ The analysis focused on identifying the utilization rate of vehicles and compari
 - Special Equipment: Due to lower utilization rates, the fleet size for special equipment could be reduced or reallocated to departments where they might be more needed, optimizing the overall fleet composition.
 - Balanced Fleet Strategy: A dynamic approach is recommended, adjusting the fleet composition seasonally and based on real-time demand. This ensures that each department has the right type and number of vehicles throughout the year.
 
-
+## How do depreciation and lifecycle status impact vehicle utilization rates and maintenance costs?
+- Depreciation vs. Utilization Rate: Vehicles with higher depreciation tend to have lower utilization rates, indicating that older or more depreciated vehicles are used less frequently compared to newer ones.
+- Depreciation vs. Maintenance Costs: As vehicles depreciate, maintenance costs generally increase. This suggests that older, more depreciated vehicles are more costly to maintain, which may contribute to their lower utilization.
+- Lifecycle Status vs. Utilization Rate: Vehicles in the “In Service” stage have higher utilization rates, while those categorized as “End of Life” or “Maintenance” exhibit significantly lower usage, reflecting their limited availability and operational capacity.
+- Lifecycle Status vs. Maintenance Costs: Vehicles nearing the “End of Life” stage or frequently in “Maintenance” incur higher maintenance costs, reinforcing the need to consider lifecycle status when planning fleet maintenance and replacement strategies.
 ![image](https://github.com/user-attachments/assets/c0e2b5aa-0e76-4fc5-9f0a-6876922184b1)
   
