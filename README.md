@@ -1,7 +1,6 @@
 # Optimizing-fleet-utilization---analysis-and-predictions of utilization rate
-Analyse the utilisation of fleet vehicles to identify underused assets and make data-driven recommendations for optimising the fleet size and composition, improving efficiency, safety and cost-effectiveness. 
 # Objectives
-The objective of this project is to optimize the City of Toronto’s fleet management by addressing critical questions related to vehicle utilization and maintenance. The project aims to the following:
+The objective of this project was to optimize the City of Toronto’s fleet management by addressing critical questions related to vehicle utilization and maintenance. The project aims to the following:
 ## key questions & Objectives 
 - Identify underutilized and overutilized vehicles to ensure efficient fleet usage - (Which vehicles are underutilized or overutilized?
 - Analyze how vehicle utilization varies across different departments and times of the year to better allocate resources. 
