@@ -9,7 +9,9 @@ The main objective of this project is to optimize the fleet size and composition
 - How does utilization vary across departments and times of the year?
 - What is the optimal number and type of vehicles needed to meet demand?
 - How do depreciation and lifecycle status impact vehicle utilization rates and maintenance costs?
-# Methodology
+- Perform clustering analysis to identify patterns in vehicle usage and maintenance to optimize fleet management?
+- Predict vehicle utilization rates using key operational and maintenance variables?
+- # Methodology
 
 The analysis focused on identifying the utilization rate of vehicles and comparing them within the same type to detect outliers. A balanced approach to fleet management was recommended, with emphasis on matching vehicle types to departmental needs and adjusting for seasonal demand.
 
@@ -40,4 +42,33 @@ The analysis focused on identifying the utilization rate of vehicles and compari
 - Lifecycle Status vs. Utilization Rate: Vehicles in the “In Service” stage have higher utilization rates, while those categorized as “End of Life” or “Maintenance” exhibit significantly lower usage, reflecting their limited availability and operational capacity.
 - Lifecycle Status vs. Maintenance Costs: Vehicles nearing the “End of Life” stage or frequently in “Maintenance” incur higher maintenance costs, reinforcing the need to consider lifecycle status when planning fleet maintenance and replacement strategies.
 ![image](https://github.com/user-attachments/assets/c0e2b5aa-0e76-4fc5-9f0a-6876922184b1)
+
+## Perform clustering analysis to identify patterns in vehicle usage and maintenance to optimize fleet management?###### Cluster Identification:
+- Cluster 0 (Red): Represents vehicles with lower mileage, lower maintenance costs, and lower utilization rates. These vehicles are likely newer or less used, indicating potential underutilization.
+- Cluster 1 (Blue): Contains vehicles with higher mileage, higher maintenance costs, and higher depreciation values, reflecting older and more heavily used vehicles. These vehicles also show higher utilization rates.
+- Cluster 2 (Green): Consists of vehicles with moderate values across mileage, maintenance costs, and utilization rates, suggesting a balanced usage pattern.
+###### Utilization Patterns:
+- Vehicles in Cluster 1 have the highest utilization rates, which aligns with their higher mileage and older status.
+- Cluster 0 shows the lowest utilization rates, pointing to possible underutilization of newer or less active vehicles.
+- Cluster 2 demonstrates moderate utilization, indicative of balanced fleet usage.
+###### Maintenance and Depreciation Insights:
+- Cluster 1 vehicles, with higher maintenance costs and depreciation values, highlight the increased costs associated with older, heavily used vehicles.
+- The lower maintenance costs in Cluster 0 correlate with newer or less utilized vehicles, which may require less frequent servicing.
+###### Recommend Action:
+- The analysis suggests a need to further evaluate underutilized vehicles in Cluster 0 for potential reallocation or downsizing.
+- Vehicles in Cluster 1 may require close monitoring for maintenance and potential replacement due to their high usage and associated costs.
+- Cluster 2 vehicles appear to be optimally used, but periodic reviews are recommended to maintain balanced utilization.
+  ![image](https://github.com/user-attachments/assets/75f0e935-f0d7-45c0-9e2c-0ea21fe15c90)
   
+## Predict vehicle utilization rates using key operational and maintenance variables?
+###### Significant Predictors:
+- Mileage: A strong positive correlation was observed between mileage and utilization rate, indicating that vehicles with higher mileage are generally more utilized.
+- Maintenance Costs: Higher maintenance costs were also positively associated with higher utilization rates, suggesting that vehicles requiring more upkeep are often those in frequent use.
+- Depreciation Value: Depreciation value showed a moderate correlation with utilization, where older vehicles with higher depreciation tend to have varied utilization patterns.
+##### Model Performance:
+- The regression model was able to explain a significant portion of the variance in utilization rates, indicating that the selected variables are effective predictors.
+- However, the model also highlighted some limitations, particularly in capturing extreme cases of underutilization or overutilization, suggesting that additional factors or more complex models might be needed for better accuracy.
+#### Practical Implications:
+- The model can be used to predict which vehicles are likely to become underutilized or overutilized, allowing fleet managers to proactively address potential inefficiencies.
+- By understanding the key drivers of utilization, the city can optimize vehicle assignments and maintenance schedules to ensure a balanced and cost-effective fleet.
+
