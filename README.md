@@ -34,4 +34,6 @@ The analysis focused on identifying the utilization rate of vehicles and compari
 - Special Equipment: Due to lower utilization rates, the fleet size for special equipment could be reduced or reallocated to departments where they might be more needed, optimizing the overall fleet composition.
 - Balanced Fleet Strategy: A dynamic approach is recommended, adjusting the fleet composition seasonally and based on real-time demand. This ensures that each department has the right type and number of vehicles throughout the year.
 
+
+![image](https://github.com/user-attachments/assets/c0e2b5aa-0e76-4fc5-9f0a-6876922184b1)
   
