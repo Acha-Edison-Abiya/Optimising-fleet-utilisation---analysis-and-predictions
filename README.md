@@ -24,8 +24,23 @@ Identified distinct clusters to better understand vehicle performance and to gui
 Developed a regression model to predict vehicle utilization rates based on operational and maintenance variables.
 Used the model to forecast potential underutilization or overutilization, aiding in future fleet planning.
 ##### Recommendations:
-	•	Based on the findings from the analyses, provided actionable recommendations for optimizing fleet size, composition, and resource allocation.
-
+Based on the findings from the analyses, provided actionable recommendations for optimizing fleet size, composition, and resource allocation.
+## Dataset
+The simulated dataset contains 1500 records of information related to fleet assets used by the City of Toronto. The main objective of this dataset is to analyze vehicle utilization and optimize fleet size and composition. The dataset includes various attributes that describe the vehicles' characteristics, usage, and associated costs.
+Dataset Columns 
+- Asset_ID: A unique identifier for each vehicle or piece of equipment in the fleet.
+- Asset_Type: The type of asset, such as Heavy Vehicle, Light Vehicle, or Special Equipment.
+- Purchase_Date: The date on which the asset was purchased. This can help in analyzing the age of the asset and its lifecycle stage.
+- Lifecycle_Status: The current lifecycle status of the asset, e.g., In Service, End of Life. This indicates whether the asset is still in use or has   been decommissioned.
+- Maintenance_Costs: The total cost incurred for maintaining the asset over its lifetime.
+- Replacement_Cost:The estimated cost to replace the asset with a new one. This is useful for financial planning and decision-making.
+- Depreciation_Value: The depreciation value of the asset, representing how much value it has lost over time.
+- Fuel_Type: The type of fuel the asset uses, such as Gasoline or Electric. This can impact both costs and environmental considerations.
+- Fuel_Efficiency: The efficiency of the asset's fuel consumption, typically measured in kilometers per liter or miles per gallon.
+- Mileage: The total distance traveled by the asset, usually measured in kilometers. This is a key indicator of vehicle usage.
+- Hours_in_Use: The total hours the asset has been in use. This metric helps assess the intensity of use beyond just distance traveled.
+- Department: The department to which the asset is assigned, such as Public Works, Transportation, or Emergency Services. This helps in analyzing usage patterns across different city departments.
+- Trips_per_Year:The number of trips the asset makes per year. This is another key indicator of how frequently the vehicle is being used.
 # Key Results
 ## Which vehicles are underutilized or overutilized?
 - Overutilized Vehicles: Heavy vehicles exhibited higher utilization rates, indicating they are frequently in demand and may require fleet expansion to meet operational needs.
