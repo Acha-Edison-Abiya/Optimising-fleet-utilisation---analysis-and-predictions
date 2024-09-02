@@ -1,17 +1,14 @@
 # Optimizing-fleet-utilization---analysis-and-predictions of utilization rate
 Analyse the utilisation of fleet vehicles to identify underused assets and make data-driven recommendations for optimising the fleet size and composition, improving efficiency, safety and cost-effectiveness. 
 # Objectives
-
-The main objective of this project is to optimize the fleet size and composition for the City of Toronto by identifying underutilized and overutilized vehicles. The project aims to answer the following key 
-## questions:
-
-- Which vehicles are underutilized or overutilized?
-- How does utilization vary across departments and times of the year?
-- What is the optimal number and type of vehicles needed to meet demand?
-- How do depreciation and lifecycle status impact vehicle utilization rates and maintenance costs?
-- Perform clustering analysis to identify patterns in vehicle usage and maintenance to optimize fleet management?
-- Predict vehicle utilization rates using key operational and maintenance variables?
-- # Methodology
+The objective of this project is to optimize the City of Toronto’s fleet management by addressing critical questions related to vehicle utilization and maintenance. The project aims to the following:
+## key questions & Objectives 
+- Identify underutilized and overutilized vehicles to ensure efficient fleet usage - (Which vehicles are underutilized or overutilized?
+- Analyze how vehicle utilization varies across different departments and times of the year to better allocate resources. 
+- Determine the optimal number and type of vehicles needed to meet current and future demand. 
+- Examine the impact of depreciation and lifecycle status on vehicle utilization rates and maintenance costs to inform replacement and maintenance strategies.- Perform clustering analysis to uncover patterns in vehicle usage and maintenance, enabling data-driven decisions for fleet optimization.
+- Develop a predictive model to forecast vehicle utilization rates using key operational and maintenance variables, helping to preemptively manage fleet efficiency.
+# Methodology
 
 The analysis focused on identifying the utilization rate of vehicles and comparing them within the same type to detect outliers. A balanced approach to fleet management was recommended, with emphasis on matching vehicle types to departmental needs and adjusting for seasonal demand.
 
