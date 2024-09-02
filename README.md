@@ -9,8 +9,23 @@ The objective of this project is to optimize the City of Toronto’s fleet manag
 - Examine the impact of depreciation and lifecycle status on vehicle utilization rates and maintenance costs to inform replacement and maintenance strategies.- Perform clustering analysis to uncover patterns in vehicle usage and maintenance, enabling data-driven decisions for fleet optimization.
 - Develop a predictive model to forecast vehicle utilization rates using key operational and maintenance variables, helping to preemptively manage fleet efficiency.
 # Methodology
-
-The analysis focused on identifying the utilization rate of vehicles and comparing them within the same type to detect outliers. A balanced approach to fleet management was recommended, with emphasis on matching vehicle types to departmental needs and adjusting for seasonal demand.
+###### Data Collection and Preprocessing:
+Gathered and cleaned data on vehicle characteristics, usage, maintenance costs, and lifecycle status.
+Standardized and prepared the dataset for analysis, ensuring accuracy and consistency.
+###### Utilization Analysis:
+Calculated utilization rates to identify underutilized and overutilized vehicles.
+Analyzed utilization patterns across different departments and throughout the year to understand variations and peak demand periods.
+###### Depreciation and Lifecycle Analysis:
+Investigated the relationship between depreciation, lifecycle status, and their impact on utilization rates and maintenance costs.
+Assessed how vehicles in different lifecycle stages (e.g., “In Service,” “End of Life”) were used and maintained.
+###### Clustering Analysis:
+Applied K-means clustering to group vehicles based on usage patterns, maintenance costs, and other key variables.
+Identified distinct clusters to better understand vehicle performance and to guide fleet optimization strategies.
+##### Regression Analysis:
+Developed a regression model to predict vehicle utilization rates based on operational and maintenance variables.
+Used the model to forecast potential underutilization or overutilization, aiding in future fleet planning.
+##### Recommendations:
+	•	Based on the findings from the analyses, provided actionable recommendations for optimizing fleet size, composition, and resource allocation.
 
 # Key Results
 ## Which vehicles are underutilized or overutilized?
