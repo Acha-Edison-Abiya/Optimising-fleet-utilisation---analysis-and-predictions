@@ -18,7 +18,7 @@ The analysis focused on identifying the utilization rate of vehicles and compari
 - Overutilized Vehicles: Heavy vehicles exhibited higher utilization rates, indicating they are frequently in demand and may require fleet expansion to meet operational needs.
 - Underutilized Vehicles: Light vehicles and special equipment showed lower utilization rates, suggesting that these assets are underutilized and could be considered for downsizing or repurposing.
 - Outliers: Vehicles with utilization rates significantly above or below the average for their type were identified as outliers, warranting closer inspection for potential reallocation or adjustment in fleet size.
-
+![image](https://github.com/user-attachments/assets/840f9166-baa2-4621-914a-43696eaa9a8a)
 
 
 ## How does utilization vary across departments?
