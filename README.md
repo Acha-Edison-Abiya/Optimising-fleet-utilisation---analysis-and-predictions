@@ -69,3 +69,7 @@ The analysis focused on identifying the utilization rate of vehicles and compari
 - The model can be used to predict which vehicles are likely to become underutilized or overutilized, allowing fleet managers to proactively address potential inefficiencies.
 - By understanding the key drivers of utilization, the city can optimize vehicle assignments and maintenance schedules to ensure a balanced and cost-effective fleet.
 
+## Conclusion
+The comprehensive analysis conducted in this project has provided valuable insights into the City of Toronto’s fleet management. By identifying underutilized and overutilized vehicles, we’ve highlighted areas where resource allocation can be optimized, ensuring that every vehicle is used to its fullest potential. The examination of utilization across departments and seasonal variations revealed the need for dynamic fleet management strategies that respond to changing operational demands.
+
+Our exploration of depreciation and lifecycle status underscored the importance of timely vehicle replacement and maintenance to minimize costs and maintain high utilization rates. Clustering analysis further refined our understanding of vehicle usage patterns, enabling more targeted decisions regarding fleet composition and management. Finally, the regression model developed in this project offers a predictive tool that can anticipate future utilization rates, allowing for proactive adjustments to fleet operations.
